@@ -1,0 +1,26 @@
+Java enum: Constant examples
+Because a Java enum type is good for defining a fixed set of constants, it’s often used to represent constants like these in Java programs:
+
+Days of the week
+Months in the year
+Cards in a deck
+Directions (north, south, east, west)
+Menu item options
+Defining arguments for a command-line program
+States in the United States (such as for a drop-down list)
+
+public enum Day
+{
+  SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY 
+}
+
+public enum Month
+{
+  JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE,
+  JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+}
+
+public enum Margin
+{
+  TOP, RIGHT, BOTTOM, LEFT
+}

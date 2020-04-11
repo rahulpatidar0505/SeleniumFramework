@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23434" started-at="2020-04-11T09:37:27 IST" finished-at="2020-04-11T09:37:50 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23434" started-at="2020-04-11T09:37:27 IST" finished-at="2020-04-11T09:37:50 IST">
+      <class name="testCases.AuthinticationTest">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="reportSetup" is-config="true" duration-ms="192" started-at="2020-04-11T09:37:27 IST" finished-at="2020-04-11T09:37:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="testSetup" is-config="true" duration-ms="18211" started-at="2020-04-11T09:37:27 IST" finished-at="2020-04-11T09:37:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="authinticationPopUpTest()[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="authinticationPopUpTest" duration-ms="4678" started-at="2020-04-11T09:37:45 IST" finished-at="2020-04-11T09:37:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- authinticationPopUpTest -->
+        <test-method status="PASS" signature="attachSreenshot(org.testng.ITestResult)[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="attachSreenshot" is-config="true" duration-ms="484" started-at="2020-04-11T09:37:50 IST" finished-at="2020-04-11T09:37:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=authinticationPopUpTest status=SUCCESS method=AuthinticationTest.authinticationPopUpTest()[pri:0, instance:testCases.AuthinticationTest@27c6e487] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachSreenshot -->
+        <test-method status="PASS" signature="testTeardown()[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="testTeardown" is-config="true" duration-ms="1" started-at="2020-04-11T09:37:50 IST" finished-at="2020-04-11T09:37:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeardown -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:testCases.AuthinticationTest@27c6e487]" name="reportTeardown" is-config="true" duration-ms="1081" started-at="2020-04-11T09:37:50 IST" finished-at="2020-04-11T09:37:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- testCases.AuthinticationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
